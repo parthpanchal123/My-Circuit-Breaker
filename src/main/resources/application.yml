@@ -1,0 +1,12 @@
+spring:
+  application:
+    name:demo
+  server:
+    PORT:8282
+
+
+app:
+  circuitbreaker:
+    failureThreshold:5
+    rollingWindowMillis:10000
+    slidingWindowSize:5000
